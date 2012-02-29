@@ -1,0 +1,52 @@
+body {
+    font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777777;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0;
+    background-color: rgb(233, 233, 233);
+    margin: 0;
+}
+
+.item {
+    background-color: white;
+    width: 246px;
+    padding: 9px 12px;
+    border: 1px solid rgb(226, 226, 226);
+    box-shadow: 0pt 1px 2px rgba(34, 25, 25, 0.4);
+}
+
+.item strong {
+    color: black;
+    font-size: 13px;
+}
+
+.item .content {
+    margin-left: 60px
+}
+
+.item .contact {
+    margin-top: 4px;
+    border-top: 1px solid rgb(226, 226, 226);
+    margin-left: 60px
+}
+
+.item img {
+    position: absolute;
+}
+
+.item p {
+    margin: 0px;
+    margin-top: 4px;
+    width: 190px;
+}
+
+.item .contact a.hover {
+    text-decoration: underline;
+}
+
+.item .contact a {
+    color: #555;
+    font-size: 11px;
+    text-decoration: none;
+}
