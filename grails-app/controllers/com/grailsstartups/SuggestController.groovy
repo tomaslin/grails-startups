@@ -9,6 +9,11 @@ class SuggestController {
         if( !username ){
             return render( 'Please suggest an username' )
         } else {
+
+            if( username.startsWith('@') ){
+                username = username.substring(1)
+            }
+
             def details = twitterService.getDetails( username )
 
             if( !details ){
