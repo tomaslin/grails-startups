@@ -41,6 +41,7 @@ grails.project.dependency.resolution = {
         runtime ":jquery:1.7.1"
         runtime ":resources:1.1.6"
 
+		compile ':webxml:1.4.1'
 		compile ':heroku:1.0.1'
 	    compile ':cloud-support:1.0.8'
 
