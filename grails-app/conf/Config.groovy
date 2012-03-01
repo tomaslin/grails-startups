@@ -17,8 +17,12 @@ grails.plugins.springsecurity.securityConfigType = SecurityConfigType.InterceptU
 grails.plugins.springsecurity.interceptUrlMap = [
         '/admin/*': ['ROLE_ADMIN'],
         '/admin': ['ROLE_ADMIN'],
+        '/console': ['ROLE_ADMIN'],
         '/**': ['IS_AUTHENTICATED_ANONYMOUSLY']
 ]
+
+grails.plugin.databasemigration.updateOnStart = true
+grails.plugin.databasemigration.updateOnStartFileNames = ['changelog.groovy']
 
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 grails.mime.file.extensions = true // enables the parsing of file extensions from URLs into the request format
