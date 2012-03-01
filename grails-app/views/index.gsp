@@ -45,9 +45,9 @@
 
 		<img src="images/logo.png" height="52" width="246" class="logo"/>
 	
-        <p>This is a showcase of startups built using the <a href="http://www.grails.org">Grails</a> web application framework.</p>
+        This is a showcase of startups built using the <a href="http://www.grails.org">Grails</a> web application framework.
 
-		<p>Starup ordering is random.</p>
+		<p>Startup ordering is random.</p>
 		
 	
         <h3>Suggest a Startup</h3>

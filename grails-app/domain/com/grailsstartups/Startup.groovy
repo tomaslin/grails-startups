@@ -11,6 +11,7 @@ class Startup implements Taggable{
     String image
     String location
     boolean approved = false
+	boolean reviewed = false
 
     Date dateCreated
     Date LastUpdated
