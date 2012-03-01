@@ -25,6 +25,7 @@ environments {
     }
     production {
         dataSource {
+            dbCreate = "update"
             url = "jdbc:h2:prodDb;MVCC=TRUE"
             pooled = true
             properties {
