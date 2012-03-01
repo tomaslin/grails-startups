@@ -4,23 +4,23 @@ class SuggestController {
 
     def twitterService
 
-    def index( String username ) {
+    def index(String username) {
 
-        if( !username ){
-            return render( 'Please suggest an username' )
+        if (!username) {
+            return render('Please suggest an username')
         } else {
 
-            if( username.startsWith('@') ){
+            if (username.startsWith('@')) {
                 username = username.substring(1)
             }
 
-            def details = twitterService.getDetails( username )
+            def details = twitterService.getDetails(username)
 
-            if( !details ){
-                return render( 'Username could not be found on Twitter')
+            if (!details) {
+                return render('Username could not be found on Twitter')
             }
 
-            [ details: details, username: username ]
+            [details: details, username: username]
         }
 
     }

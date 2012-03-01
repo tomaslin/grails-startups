@@ -1,6 +1,6 @@
 package com.grailsstartups
 
-class Role {
+class SecRole {
 
 	String authority
 

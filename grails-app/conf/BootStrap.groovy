@@ -1,8 +1,24 @@
+import com.grailsstartups.SecRole
+import com.grailsstartups.SecUser
+import com.grailsstartups.SecUserSecRole
 import com.grailsstartups.Startup
 
 class BootStrap {
 
+    def springSecurityService
+
     def init = { servletContext ->
+
+        def adminRole = SecRole.findByAuthority('ROLE_ADMIN') ?: new SecRole(authority: 'ROLE_ADMIN').save(failOnError: true)
+
+        def adminUser = SecUser.findByUsername('admin') ?: new SecUser(
+                username: 'admin',
+                password: 'admin',
+                enabled: true).save(failOnError: true)
+
+        if (!adminUser.authorities.contains(adminRole)) {
+            SecUserSecRole.create adminUser, adminRole
+        }
 
         if (Startup.count() == 0) {
 
@@ -14,8 +30,8 @@ class BootStrap {
                     image: 'http://a1.twimg.com/profile_images/1207501313/se_twitter_avatar_03_normal.jpg',
                     approved: true,
                     location: 'London, UK',
-                	reviewed: true
-            ).save( failOnError:  true)
+                    reviewed: true
+            ).save(failOnError: true)
 
             new Startup(
                     name: 'ClickOnero Mexico',
@@ -25,9 +41,8 @@ class BootStrap {
                     description: '¡La mayoría de los servicios que deseas con hasta un 90% de descuento! Llegó clickOnero: la manera más divertida de comprar en la web.',
                     image: 'http://a3.twimg.com/profile_images/1427828506/Profile_ClickOnero_DF-01_normal.jpg',
                     approved: true,
-                	reviewed: true
+                    reviewed: true
             ).save()
-
 
             new Startup(
                     location: 'London, UK and Portland, ME',
@@ -37,7 +52,7 @@ class BootStrap {
                     description: 'Love to Cruise? Searching for a cruise vacation? Read reviews, get advice and find deals.',
                     image: 'http://a0.twimg.com/profile_images/1184767819/clf_twitter_logo-1_normal.jpg',
                     approved: true,
-                	reviewed: true
+                    reviewed: true
             ).save()
 
             new Startup(
@@ -48,7 +63,7 @@ class BootStrap {
                     description: 'A new way for women to share & discover beauty products',
                     image: 'http://a2.twimg.com/profile_images/1573562362/WIMH_Small_Whiteonblack_normal.png',
                     approved: true,
-                	reviewed: true
+                    reviewed: true
             ).save()
 
             new Startup(
@@ -59,7 +74,7 @@ class BootStrap {
                     description: "Beauty's best. In a box.",
                     image: 'http://a0.twimg.com/profile_images/1533170135/Carmine_image_RGB_normal.jpg',
                     approved: true,
-                	reviewed: true
+                    reviewed: true
             ).save()
 
         }
