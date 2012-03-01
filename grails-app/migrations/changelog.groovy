@@ -1,5 +1,5 @@
 databaseChangeLog = {
 
-	include file: 'initial-database.groovy'
+    include file: 'initial-database.groovy'
 
 }
