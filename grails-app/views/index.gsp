@@ -2,15 +2,16 @@
 <!doctype html>
 <html>
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="js/jquery.wookmark.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/startup.js"></script>
 
     <title>Grails Startups</title>
 
     <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'/>
     <link rel='stylesheet' type='text/css' href='css/startup.css'/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/jquery.wookmark.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/startup.js"></script>
 
 </head>
 
