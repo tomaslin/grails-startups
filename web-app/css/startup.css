@@ -79,3 +79,7 @@ a{
 .modal-header .close {
 	margin-left: 220px;
 }
+
+#suggestForm{
+    margin-top: 10px;
+}
