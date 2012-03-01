@@ -45,7 +45,10 @@
 
 		<img src="images/logo.png" height="52" width="246" class="logo"/>
 	
-        This is a showcase of startups built using the <a href="http://www.grails.org">Grails</a> web application framework.
+        <p>This is a showcase of startups built using the <a href="http://www.grails.org">Grails</a> web application framework.</p>
+
+		<p>Starup ordering is random.</p>
+		
 	
         <h3>Suggest a Startup</h3>
         <p>Startup not in the list? Add it now.<br/></p>
@@ -66,7 +69,8 @@
 
         <div class="modal" id="dialog" style="display:none">
         <div class="modal-header">
-        <h3>Suggest a startup</h3>
+         <a data-dismiss="modal" class="close" href="#">×</a>
+		 <h3>Suggest a startup</h3>
         </div>
         <div class="modal-body" id="suggestion">
         </div>

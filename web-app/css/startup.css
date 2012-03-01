@@ -75,3 +75,7 @@ a{
 #dialog{
 	width: 250px;
 }
+
+.modal-header .close {
+	margin-left: 220px;
+}
