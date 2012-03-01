@@ -20,7 +20,7 @@ class SuggestController {
                 return render( 'Username could not be found on Twitter')
             }
 
-            [ details: details ]
+            [ details: details, username: username ]
         }
 
     }

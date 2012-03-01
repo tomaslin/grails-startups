@@ -13,7 +13,7 @@ class Startup implements Taggable{
     boolean approved = false
 
     Date dateCreated
-    Date lastModified
+    Date LastUpdated
 
     static constraints = {
 

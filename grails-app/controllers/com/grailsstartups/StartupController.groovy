@@ -12,7 +12,7 @@ class StartupController {
 
     def save() {
         def startupInstance = new Startup(params)
-        if (!startupInstance.save(flush: true)) {
+        if (!startupInstance.save(flush: true, failOnError:true)) {
             render( 'Sorry, an error has occurred' )
             return
         }
