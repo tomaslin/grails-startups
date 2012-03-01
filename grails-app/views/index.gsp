@@ -59,7 +59,7 @@
 
     </div>
 
-    <g:each in="${Startup.findAllByApproved(true).sort { Math.random() }}" var="startup">
+    <g:each in="${Startup.approvedStartups.list().sort { Math.random() }}" var="startup">
         <tmpl:/startup startup="${startup}"/>
     </g:each>
 

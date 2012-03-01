@@ -19,4 +19,12 @@ class Startup implements Taggable {
     static constraints = {
 
     }
+
+    static namedQueries = {
+
+        approvedStartups{
+            eq 'approved', true
+        }
+
+    }
 }

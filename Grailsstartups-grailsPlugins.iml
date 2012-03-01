@@ -8,7 +8,6 @@
           <root url="file://$USER_HOME$/.grails/2.0.1/projects/grailsstartups/plugins/console-1.1/grails-app/views" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.0.1/projects/grailsstartups/plugins/taggable-1.0.1/web-app" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.0.1/projects/grailsstartups/plugins/jquery-1.7.1/web-app" relative="/" />
-          <root url="file://$USER_HOME$/.grails/2.0.1/projects/grailsstartups/plugins/database-migration-1.0/grails-app/views" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -27,10 +26,6 @@
     <content url="file://$USER_HOME$/.grails/2.0.1/projects/grailsstartups/plugins/console-1.1">
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.1/projects/grailsstartups/plugins/console-1.1/grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.1/projects/grailsstartups/plugins/console-1.1/grails-app/services" isTestSource="false" />
-    </content>
-    <content url="file://$USER_HOME$/.grails/2.0.1/projects/grailsstartups/plugins/database-migration-1.0">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.1/projects/grailsstartups/plugins/database-migration-1.0/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.0.1/projects/grailsstartups/plugins/database-migration-1.0/grails-app/controllers" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/.grails/2.0.1/projects/grailsstartups/plugins/database-session-1.1.2">
       <sourceFolder url="file://$USER_HOME$/.grails/2.0.1/projects/grailsstartups/plugins/database-session-1.1.2/src/java" isTestSource="false" />
@@ -86,7 +81,6 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.spockframework/spock-grails-support/jars/spock-grails-support-0.6-groovy-1.8-SNAPSHOT.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-core/jars/spring-security-core-3.0.7.RELEASE.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.springframework.security/spring-security-web/jars/spring-security-web-3.0.7.RELEASE.jar!/" />
-          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.liquibase/liquibase-core/jars/liquibase-core-2.0.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
