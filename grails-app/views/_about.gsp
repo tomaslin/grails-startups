@@ -7,7 +7,7 @@
 
     <p>Startup ordering is random.</p>
 
-    <p>Source available on <a href="">Github</a></p>
+    <p>Source available on <a href="https://github.com/tomaslin/grails-startups">Github</a></p>
 
     <h3>Suggest a Startup</h3>
 
