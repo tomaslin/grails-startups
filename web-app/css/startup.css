@@ -78,4 +78,19 @@ a{
 
 .modal-header .close {
 	margin-left: 220px;
+    font-size: 16px;
+}
+
+#about{
+    height: 330px
+}
+
+p.small{
+    margin-top: 0px;
+    font-size:11px;
+    width: 100%;
+}
+
+form{
+    margin: 0px;
 }

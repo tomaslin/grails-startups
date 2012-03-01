@@ -47,7 +47,6 @@
 <div class="modal" id="dialog" style="display:none">
     <div class="modal-header">
         <a data-dismiss="modal" class="close" href="#">×</a>
-
         <h3>Suggest a startup</h3>
     </div>
 

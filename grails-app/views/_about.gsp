@@ -18,5 +18,8 @@
         <g:submitButton name="Get Details"/>
     </g:formRemote>
 
+    <p class="small">Please only submit links to full projects written in Grails. Individual accounts, consulting companies and 'coming soon' sites will be rejected.</p>
+
+
 
 </div>
