@@ -3,11 +3,9 @@
     <img src="images/logo.png" height="52" width="246" class="logo"/>
 
     This is a showcase of startups built using the <a
-        href="http://www.grails.org">Grails</a> web application framework.
+        href="http://www.grails.org">Grails</a> web application framework. [<a href="https://github.com/tomaslin/grails-startups">Github</a>]
 
     <p>Startup ordering is random.</p>
-
-    <p>Source available on <a href="https://github.com/tomaslin/grails-startups">Github</a></p>
 
     <h3>Suggest a Startup</h3>
 
